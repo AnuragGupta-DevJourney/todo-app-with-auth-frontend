@@ -6,10 +6,12 @@ import axios from "axios";
 import axiosBaseURL from "../util/axiosBaseURL";
 
 function CreatePage() {
+  
   const initilizeNotesDetails = {
     title: "",
     description: "",
   };
+  
   const [notesDetails, setNotesDetails] = useState(initilizeNotesDetails);
 
   const handleFormInput = (e) => {
